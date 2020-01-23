@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#151515"
+		android:id="@+id/linearLayout2">
+		<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/RelativeLayout1"
+				android:background="#252424">
+
+				<ImageView
+					android:src="@drawable/profileown"
+					android:layout_width="60dp"
+					android:layout_height="60dp"
+					android:id="@+id/imageView1"/>
+
+				
+
+				<TextView
+					android:text="SETTINGS"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="20dp"
+					android:textStyle="bold"
+					android:textColor="#ffff"
+					android:id="@+id/news"
+					android:layout_centerInParent="true"/>
+				
+		</RelativeLayout>
+			
+			
+			<android.support.v4.widget.NestedScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" >
+
+				<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:layout_marginTop="5dp"
+				android:background="#151515"
+				android:gravity="center"
+				android:id="@+id/linearLayout1">
+
+				<TextView
+					android:text="USERS"
+					android:paddingTop="30dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18dp"
+					android:drawableLeft="@drawable/user"
+					android:textColor="#FFFFFF"
+					android:drawablePadding="20dp"
+					android:id="@+id/lblusers" />
+
+				<android.support.design.widget.TextInputLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textColorHint="#ECEAEA">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:minWidth="25px"
+						android:minHeight="25px"
+						android:textColor="#FFFFFF"
+						android:backgroundTint="#ECEAEA"
+						android:id="@+id/txtname"
+						android:hint="NAME" />
+	
+
+				</android.support.design.widget.TextInputLayout>
+				
+				<TextView
+					android:text="CONTACT AND EMAIL"
+					android:paddingTop="30dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="18dp"
+					android:drawableLeft="@drawable/phonebook"
+					android:textColor="#FFFFFF"
+					android:drawablePadding="20dp"
+					android:id="@+id/lblcontacs" />
+
+				<android.support.design.widget.TextInputLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColorHint="#ECEAEA">
+
+					<EditText
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:minWidth="25px"
+						android:minHeight="25px"
+						android:textColor="#FFFFFF"
+						android:backgroundTint="#ECEAEA"
+						android:id="@+id/txtcontact"
+						android:hint="PHONE NUMBER" />
+
+				</android.support.design.widget.TextInputLayout>
+				<android.support.design.widget.TextInputLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:textColorHint="#ECEAEA">
+
+						<EditText
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:minWidth="25px"
+							android:minHeight="25px"
+							android:textColor="#FFFFFF"
+							android:backgroundTint="#ECEAEA"
+							android:id="@+id/txtemail"
+							android:hint="EMAIL" />
+
+					</android.support.design.widget.TextInputLayout>
+
+					<TextView
+						android:text="ADDRESS"
+						android:paddingTop="10dp"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:textSize="18dp"
+						android:layout_marginTop="20dp"
+						android:drawableLeft="@drawable/homeaddress1"
+						android:textColor="#FFFFFF"
+						android:drawablePadding="20dp"
+						android:id="@+id/lblusers" />
+
+	
+				
+					<android.support.design.widget.TextInputLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:textColorHint="#ECEAEA">
+
+						<EditText
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:minWidth="25px"
+							android:minHeight="25px"
+							android:textColor="#FFFFFF"
+							android:backgroundTint="#ECEAEA"
+							android:id="@+id/txtaddress"
+							android:hint="ADDRESS" />
+
+					</android.support.design.widget.TextInputLayout>
+					<TextView
+						android:text="LOGIN INFORMARION"
+						android:paddingTop="10dp"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:textSize="18dp"
+						android:layout_marginTop="20dp"
+						android:drawableLeft="@drawable/shield"
+						android:textColor="#FFFFFF"
+						android:drawablePadding="20dp"
+						android:id="@+id/lblusers" />
+
+					
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:textColorHint="#ECEAEA">
+
+							<EditText
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:minWidth="25px"
+								android:minHeight="25px"
+								android:textColor="#FFFFFF"
+								android:backgroundTint="#ECEAEA"
+								android:id="@+id/txtusername"
+								android:hint="USERNAME" />
+
+					</android.support.design.widget.TextInputLayout>
+					<android.support.design.widget.TextInputLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:textColorHint="#ECEAEA">
+
+							<EditText
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:minWidth="25px"
+								android:minHeight="25px"
+								android:textColor="#FFFFFF"
+								android:backgroundTint="#ECEAEA"
+								android:id="@+id/txtpassword"
+								android:hint="CHANGE PASSWORD"
+								android:inputType="textPassword"/>
+
+					</android.support.design.widget.TextInputLayout>
+					<Button
+						android:text="Save"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/btnsave"
+						android:layout_marginTop = "10dp"
+						android:background="#265DE6"
+						android:textColor="#FFFFFF" />
+	
+				</LinearLayout>	
+			</android.support.v4.widget.NestedScrollView>
+
+	</LinearLayout>
+</LinearLayout>
